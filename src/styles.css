@@ -68,16 +68,15 @@ a:focus-visible { outline: 1px solid var(--accent); outline-offset: 3px; }
   50.01%, 100% { opacity: 0; }
 }
 
-.role { color: var(--muted); margin: 0 0 2.2rem; }
+.role { color: var(--muted); margin: 0 0 0.6rem; }
+.contact-line { color: var(--muted); font-size: 0.9rem; margin: 0 0 2.2rem; }
+.contact-line .sep { color: var(--rule); margin: 0 0.5rem; }
 .bio { margin: 0 0 3rem; max-width: 46rem; }
 
 section { margin-bottom: 2.8rem; }
 .label { color: var(--muted); font-size: 0.85rem; margin: 0 0 1.2rem; }
 
 ul { list-style: none; margin: 0; padding: 0; }
-
-.links li { padding: 0.2rem 0; }
-.links .key { color: var(--muted); display: inline-block; min-width: 5.5rem; }
 
 /* ---------- Experience list ---------- */
 .experience li {

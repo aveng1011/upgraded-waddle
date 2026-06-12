@@ -23,24 +23,24 @@ export default function Home() {
         <header className="line">
           <h1>{about.name}</h1>
           {about.identity && <p className="role">{about.identity}</p>}
+          {about.links?.length > 0 && (
+            <p className="contact-line">
+              {about.links.map((link, i) => (
+                <span key={link.key}>
+                  {i > 0 && <span className="sep">·</span>}
+                  {link.url ? (
+                    <a href={link.url}>{link.label ?? link.url}</a>
+                  ) : (
+                    <span>{link.label}</span>
+                  )}
+                </span>
+              ))}
+            </p>
+          )}
         </header>
 
         {about.bio && (
           <p className="bio line" dangerouslySetInnerHTML={{ __html: about.bio }} />
-        )}
-
-        {about.links?.length > 0 && (
-          <section className="line">
-            <p className="label">// links</p>
-            <ul className="links">
-              {about.links.map((link) => (
-                <li key={link.key}>
-                  <span className="key">{link.key}</span>
-                  <a href={link.url}>{link.label ?? link.url}</a>
-                </li>
-              ))}
-            </ul>
-          </section>
         )}
 
         {experience?.length > 0 && (

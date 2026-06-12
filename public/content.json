@@ -1,11 +1,11 @@
 {
   "about": {
-    "name": "name",
-    "identity": "computational physics @ Carnegie Mellon University",
+    "name": "Felipe Caceres - Fernandez",
+    "identity": "Computational Physics @ Carnegie Mellon University",
     "bio": "Brief background and academics go here — what you study, what you're into, and a sentence or two of context. Mention relevant coursework, research interests, or focus areas.",
     "links": [
-      { "key": "linkedin", "label": "linkedin.com/in/username", "url": "https://linkedin.com/in/username" },
-      { "key": "resume", "label": "resume.pdf", "url": "#" }
+      { "key": "linkedin", "label": "linkedin.com/in/cfelipef", "url": "https://www.linkedin.com/in/cfelipef/" },
+      { "key": "email", "label": "fcaceres[at]andrew[dot]cmu[dot]edu" }
     ]
   },
   "experience": [
